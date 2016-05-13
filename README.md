@@ -59,7 +59,8 @@ if status == "error" means error
 > * example:
 
 ```
-{"user":{"name":"张三","phone":"18813101111","wechat":"w111","IDCard":"110112341234234","address":"北京市农机院"},status:"success"}
+{"user":{"name":"张三","phone":"18813101111","wechat":"w111","IDCard":"110112341234234","address":"北京市农机院"},
+status:"success"}
 ```
 
 ### 获取用户信息
@@ -77,7 +78,8 @@ if status == "error" means error
 > * example:
 
 ```
-{"user":{"name":"张三","phone":"18813101111","wechat":"w111","IDCard":"110112341234234","address":"北京市农机院"},status:"success"}
+{"user":{"name":"张三","phone":"18813101111","wechat":"w111","IDCard":"110112341234234","address":"北京市农机院"},
+status:"success"}
 ```
 
 
@@ -96,8 +98,10 @@ if status == "error" means error
 > * example
 
 ```
-{"user":{"balance":"13元","point":"122分"},orderlist:{"1",
-"2","3"},usinglog:{"1","2"},status:"success"}
+{"user":{"balance":"13元","point":"122分"},
+orderlist:{"1","2","3"},
+usinglog:{"1","2"},
+status:"success"}
 ``` 
 
 
@@ -118,7 +122,8 @@ if status == "error" means error
 > * example
 
 ```
-{"device":{"deviceID":12,"deviceName":"device1","deviceDescription":"这个设备可以让你放松","deviceImage":"/deviceImage/image1.jpg"},"status":"success"}
+{"device":{"deviceID":12,"deviceName":"device1","deviceDescription":"这个设备可以让你放松","deviceImage":"/deviceImage/image1.jpg"},
+"status":"success"}
 ```
 
 ### 租用设备:生成订单
@@ -138,7 +143,8 @@ if status == "error" means error
 > * example
 
 ```
-{"order":{"orderID":12,"rentUserName":"关羽","rentUserPhone":"18813101111","rentDeviceNumber":"1","rentTime":"1年","rentAddress":"北京市农机院","rentFee":"1000元","rentPayMethod":"支微信"},"status":"success"}
+{"order":{"orderID":12,"rentUserName":"关羽","rentUserPhone":"18813101111","rentDeviceNumber":"1","rentTime":"1年","rentAddress":"北京市农机院","rentFee":"1000元","rentPayMethod":"支微信"},
+"status":"success"}
 ```
 
 ### 跳转到支付：去支付
