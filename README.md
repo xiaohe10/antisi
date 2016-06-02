@@ -42,7 +42,7 @@ if status == "error" means error
 
 
 ### 用户登陆：绑定时直接通过用户名和密码登陆
-> * /apis/user/login
+> * /apis/user/applogin
 
 > * Input Parameters
 >> * username:requested
